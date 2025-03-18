@@ -1,0 +1,27 @@
+{
+  "1": {
+    "start-date": 1741734000,
+    "end-date": 1744909200,
+    "description": "Interest Checks"
+  },
+  "2": {
+    "start-date": 1745168400,
+    "end-date": 1747760400,
+    "description": "Collaborator Applications"
+  },
+  "3": {
+    "start-date": null,
+    "end-date": null,
+    "description": "Collaborator reach out"
+  },
+  "4": {
+    "start-date": null,
+    "end-date": null,
+    "description": "Zine production"
+  },
+  "5": {
+    "start-date": null,
+    "end-date": null,
+    "description": "Zine is OUT"
+  }
+}

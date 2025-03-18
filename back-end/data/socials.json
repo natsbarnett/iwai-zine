@@ -1,0 +1,22 @@
+{
+    "bsky" : {
+        "name" : "BlueSky",
+        "handle" : "@iwaizine-project.bsky.social",
+        "link" : "https://bsky.app/profile/iwaizine-project.bsky.social"
+    }, 
+    "tumblr" : {
+        "name" : "Tumblr",
+        "handle" : "@iwai-zine-project",
+        "link" : "https://www.tumblr.com/iwai-zine-project"
+    }, 
+    "instagram" : {
+        "name" : "Instagram",
+        "handle" : "@iwai_zine",
+        "link" : "https://www.instagram.com/iwai_zine/"
+    }, 
+    "twt" : {
+        "name" : "Twitter",
+        "handle" : "@Iwai_zine",
+        "link" : "https://x.com/Iwai_zine"
+    }
+}

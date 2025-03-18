@@ -1,0 +1,43 @@
+{
+    "1":{
+        "name" : "Nats / SharkHoney",
+        "pfp" : "/contributors/nats.png",
+        "socials" : {
+            "twt" : null,
+            "ig" :  {
+                "name" : "Instagram",
+                "handle" : "@sharkhoney_draws",
+                "link" : "https://www.instagram.com/sharkhoney_draws/"
+            },
+            "bsky" : {
+                "name" : "BlueSky",
+                "handle" : "@sharkhoney-draws.bsky.social",
+                "link" : "https://bsky.app/profile/sharkhoney-draws.bsky.social"
+            },
+            "tumblr" : {
+                "name" : "Tumblr",
+                "handle" : "@sharkhoney-draws",
+                "link" : "https://sharkhoney-draws.tumblr.com"
+            }, 
+            "tiktok" : null,
+            "ao3" : null,
+            "cara" : null
+        },
+        "roles" : ["Mod", "Artist"]
+    },
+    "2":{
+        "name" : null,
+        "pfp" : null,
+        "socials" : {
+            "twt" : null,
+            "ig" :  null,
+            "bsky" : null,
+            "tumblr" : null, 
+            "tiktok" : null,
+            "ao3" : null,
+            "cara" : null
+        },
+        "roles" : null
+    }
+
+}
