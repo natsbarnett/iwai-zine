@@ -425,6 +425,8 @@ form button:hover {
 .mod {
   display: block;
   text-align: center;
+  padding: 20px 60px;
+  border-top: 2px solid var(--gray);
 }
 
 .mod .image-socials {
@@ -565,4 +567,25 @@ form button:hover {
   .role-infos {
     display: block !important;
   }
+}
+
+/**************************
+* Rules page
+*/
+
+.rules h2{
+  max-width: 80%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.rules .green{
+  color: var(--green);
+}
+
+.rules h3, .rules p{
+  display: block;
+  max-width: 80%;
+  text-align: center;
+  margin: 20px auto;
 }

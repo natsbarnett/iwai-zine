@@ -42,6 +42,34 @@ const Mods = () => {
             </p>
           </div>
         </div>
+        <div className="mod">
+          <div className="image-socials">
+            <div className="image">
+              <img src="../../public/contributors/ibuki.png" alt="Ibuki" />
+            </div>
+            <div className="socials">
+              <a href="https://www.instagram.com/ibuki_does_drawing/" className="ig" target="_blank" title="Visit Ibuki's social media : Instagram">Instagram</a>
+            </div>
+          </div>
+          <div className="text">
+            <h2>Ibuki</h2>
+            <div className="role-infos">
+              <h3 className="role">Art Mod</h3>
+              <p>
+                Pronouns: They/Them - She/Her <span> • </span>Languages: French, English
+              </p>
+            </div>
+            <div className="intro" style={{ "--name-mod": "'Ibuki'" }}>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt facere repudiandae porro assumenda eaque itaque voluptatem magni ut dolore. Facere minima laborum sint eum autem eligendi officiis earum officia eaque.
+              </p>
+            </div>
+            <h3 className="role">Past experience :</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas voluptatem corporis eos quibusdam commodi eligendi vel qui, voluptates aut recusandae, nam velit molestias nisi officia, ex voluptatibus. At, nam iste.
+            </p>
+          </div>
+        </div>
 
         <ReturnHome />
       </div>

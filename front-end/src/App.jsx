@@ -3,7 +3,7 @@ import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Contributors from "./pages/Contributors";
 import Mods from "./pages/Mods";
-import Header from "./components/Header";
+import Rules from "./pages/Rules";
 import MessageSent from "./pages/MessageSent";
 import About from "./pages/About";
 import FAQ from "./pages/FAQ";
@@ -17,6 +17,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/contributors" element={<Contributors />} />
         <Route path="/mods" element={<Mods />} />
+        <Route path="/rules" element={<Rules />}/>
         <Route path="/about" element={<About />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/message-sent" element={<MessageSent />} />

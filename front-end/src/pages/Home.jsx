@@ -32,8 +32,9 @@ const Home = () => {
         <h2>Links</h2>
         <div className="links-zine">
           <Link to="/about" title="Learn more about the project">About</Link>
-          <Link to="/contributors" title="Discover the contributors">Contributors</Link>
           <Link to="/mods" title="Discover the rules of the Zine">Mods</Link>
+          {/* <Link to="/contributors" title="Discover the contributors">Contributors</Link> */}
+          <Link to="/rules" title="Check out the rules of the zine">Rules</Link>
           <Link to="/faq" title="Do you have a question? Learn about the zine in the FAQ">FAQ</Link>
           <Link to="/contact" title="Do you have a question? A suggestion? Contact the team via this form!">Contact</Link>
         </div>
