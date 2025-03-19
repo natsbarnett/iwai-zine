@@ -8,7 +8,7 @@ const Dates = () => {
   useEffect(() => {
     const fetch = async () => {
       try {
-        const response = await axios.get("http://localhost:4000/dates");
+        const response = await axios.get("https://iwai-zine.vercel.app/dates");
         //console.log(response.data)
         const datesData = Object.entries(response.data);
         setDates(datesData);
@@ -25,7 +25,7 @@ const Dates = () => {
   }
 
   const formatDate = (timestamp) =>
-    timestamp ? new Date(timestamp * 1000).toLocaleDateString() : "Unknown";
+    timestamp ? new Date(timestamp * 1000).toLocaleDateString() : "TBD";
 
   return (
     <div className="timeline">

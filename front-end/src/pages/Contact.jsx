@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import Socials from "../components/SocialsList";
 import ReturnHome from "../components/ReturnHome";
+import ReturnHomeIcon from "../components/ReturnHomeIcon";
 
 const Contact = () => {
   const [nom, setNom] = useState("");
@@ -77,6 +78,7 @@ const Contact = () => {
   return (
     <div className="contact-form">
       <div className="description">
+        <ReturnHomeIcon/>
         <h1>Contact us</h1>
         <div className="contact-page-content">
           <p>

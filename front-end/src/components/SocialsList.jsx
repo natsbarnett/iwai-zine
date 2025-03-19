@@ -8,7 +8,7 @@ const Socials = () => {
   useEffect(() => {
     const fetch = async () => {
       try {
-        const response = await axios.get("http://localhost:4000/socials");
+        const response = await axios.get("https://iwai-zine.vercel.app/socials");
         const socialData = Object.entries(response.data);
         setSocials(socialData);
         setLoading(false);

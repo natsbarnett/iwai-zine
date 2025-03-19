@@ -1,6 +1,7 @@
 :root {
   --white: #fefefe;
   --black: #1e1e1e;
+  --d-black: #000;
   --gray: #717171;
   --green: #60e527;
 }
@@ -88,8 +89,22 @@ header nav a {
   color: var(--white);
 }
 
+.home h2,
+.home .text {
+  text-align: center;
+}
+
 .return-home {
   margin: 2% 0;
+}
+
+.return-home-icon {
+  max-width: fit-content;
+  margin: 10px auto;
+  display: block;
+}
+.return-home-icon img {
+  max-width: 35px;
 }
 
 /**************************
@@ -317,4 +332,237 @@ form button {
 form button:hover {
   background-color: var(--gray);
   color: var(--white);
+}
+
+/**
+* FAQ
+**/
+
+.content-faq h2 {
+  text-align: center;
+}
+
+.content-faq h2::before {
+  content: "Q - ";
+  font-family: "newspaper";
+  font-weight: normal;
+}
+
+.question {
+  margin: 40px 10px;
+}
+
+.question .answer::before {
+  content: "Answer";
+  font-family: "newspaper";
+  position: absolute;
+  top: 0;
+  transform: translateY(-25px) skew(-20deg);
+  border: 5px solid var(--d-black);
+  padding: 5px 20px;
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.question .answer::after {
+  content: "";
+  height: 40px;
+  width: 20px;
+  background-color: var(--white);
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: skew(-50deg) translate(-20px, -30px);
+  border: 5px solid var(--d-black);
+}
+
+.question .answer {
+  display: flex;
+  align-items: center;
+  margin: 10px auto;
+  position: relative;
+  background: var(--d-black);
+  padding: 10px 20px 10px 50px;
+  border: 5px solid var(--white);
+  outline: 10px solid var(--d-black);
+  transform: skew(10deg);
+}
+
+.question .answer p {
+  font-weight: bold;
+  transform: skew(-10deg);
+}
+
+@media (min-width: 1000px) {
+  .question .answer {
+    max-width: 700px;
+  }
+}
+
+/**************************
+* About page
+*/
+
+.about h2,
+.about h3 {
+  text-align: center;
+  max-width: 80%;
+  margin: 20px auto;
+}
+
+.about .text {
+  text-align: center;
+}
+
+.about h3 {
+  padding-top: 25px;
+  border-top: 3px solid var(--green);
+}
+
+/**************************
+* Mods page
+*/
+.mod {
+  display: block;
+  text-align: center;
+}
+
+.mod .image-socials {
+  flex: 0 0 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.mod .socials {
+  display: flex;
+  gap: 10px;
+}
+.mod .socials .ig {
+  background: url("../public/socials-logo/ig.svg");
+}
+.mod .socials .bsky {
+  background: url("../public/socials-logo/bsky.svg");
+}
+.mod .socials .tumblr {
+  background: url("../public/socials-logo/tumblr.svg");
+}
+.mod .socials a {
+  display: block;
+  background-position: center center !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  text-indent: -9999px;
+  height: 20px;
+  width: 20px;
+}
+
+.mod .image {
+  overflow: hidden;
+  max-width: 200px;
+  max-height: 200px;
+  display: flex;
+  border: 3px solid var(--green);
+  border-radius: 8px;
+}
+
+.mod .text {
+  flex: 1;
+}
+.mod img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  flex: 1;
+}
+
+.mod .role-infos {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.mod .role-infos span {
+  color: var(--green);
+}
+
+.mod .role {
+  font-weight: normal;
+  margin: 0 !important;
+  color: var(--green);
+  padding: 0;
+}
+
+.mod .intro {
+  background-color: var(--d-black);
+  padding: 10px 20px;
+  transform: skew(-10deg);
+  border: 5px solid var(--white);
+  outline: 10px solid var(--d-black);
+  max-width: 700px;
+  position: relative;
+  margin: 40px 0;
+  display: block;
+}
+
+.mod .intro p {
+  transform: skew(10deg);
+  font-weight: bold;
+}
+.mod .intro::before {
+  content: var(--name-mod);
+  font-family: "newspaper";
+  display: block;
+  position: absolute;
+  top: 0;
+  transform: translateY(-20px) skew(-12deg);
+  color: var(--black);
+  background-color: var(--white);
+  padding: 5px 10px;
+  border: 5px solid var(--d-black);
+}
+
+.mod .intro::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 30px;
+  width: 20px;
+  background-color: var(--white);
+  transform: skew(-50deg) translateY(-20px);
+  border: 3px solid var(--d-black);
+}
+
+@media (min-width: 1400px) {
+  .mod {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .mod .intro {
+    max-width: 500px !important;
+  }
+}
+
+@media (max-width: 1399px) {
+  .role-infos {
+    max-width: fit-content;
+    margin: 0 auto;
+  }
+
+  .mod .intro {
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .role-infos {
+    display: block !important;
+  }
 }
