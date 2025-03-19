@@ -41,7 +41,7 @@
             "ao3" : null,
             "cara" : null
         },
-        "roles" : "Mod, Artist"
+        "roles" : ["Mod", "Artist"]
     }
 
 }
