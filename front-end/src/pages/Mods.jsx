@@ -37,8 +37,7 @@ const Mods = () => {
             </div>
             <h3 className="role">Past experience :</h3>
             <p>
-              Contributor of the Naru Love Project Zine, Professor Layton gift
-              exchange, as well a a bunch of IRL projects not art-related.
+              Contributor of the <a href="https://naruloveproject.itch.io/naru-love-project" target="_blank" title="Check out the Naru Love Project Zine on itch.io">Naru Love Project Zine</a>, <a href="https://simporiem-studios.itch.io/light-the-way" target="_blank" title="Check out Light The Way Luxiem Dating Sim on itch.io">Light The Way • Luxiem Dating Sim</a>, as well a a bunch of IRL projects not art-related.
             </p>
           </div>
         </div>

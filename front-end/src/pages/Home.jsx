@@ -9,8 +9,8 @@ const Home = () => {
       <div className="description">
         <h1>Iwai Zine Project</h1>
         <div className="text">
-          This zine is a free, digital Persona 5 fanzine centered around the
-          theme of Iwai Munehisa
+          This zine is a free, SFW, digital Persona 5 fanzine centered around the
+          character of Iwai Munehisa
           <br />
           Interest checks are now OPEN !
           <div>
