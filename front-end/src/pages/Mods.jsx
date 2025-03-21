@@ -44,7 +44,7 @@ const Mods = () => {
         <div className="mod">
           <div className="image-socials">
             <div className="image">
-              <img src="../../public/contributors/ibuki.png" alt="Ibuki" />
+              <img src="/contributors/ibuki.png" alt="Ibuki" />
             </div>
             <div className="socials">
               <a href="https://www.instagram.com/ibuki_does_drawing/" className="ig" target="_blank" title="Visit Ibuki's social media : Instagram">Instagram</a>
