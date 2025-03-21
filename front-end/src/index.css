@@ -97,7 +97,7 @@ header nav a {
 .home .links-zine a:hover,
 .return-home:hover {
   background-color: var(--gray);
-  color: var(--white);
+  color: var(--white) !important;
 }
 
 .home h2,

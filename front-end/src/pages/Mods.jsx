@@ -11,7 +11,7 @@ const Mods = () => {
         <div className="mod">
           <div className="image-socials">
             <div className="image">
-              <img src="../../public/contributors/nats.png" alt="Nats" />
+              <img src="/contributors/nats.png" alt="Nats" />
             </div>
             <div className="socials">
               <a href="https://bsky.app/profile/sharkhoney-draws.bsky.social" className="bsky" target="_blank" title="Visit Nats's social media : BlueSky">BlueSky</a>
