@@ -29,7 +29,7 @@ const Dates = () => {
 
   return (
     <div className="timeline">
-      <div className="timeline-item">
+      <div className="timeline-item header-timeline">
         <div className="date-name">Event</div>
         <div className="date-name">Start Date</div>
         <div className="date-name">End Date</div>

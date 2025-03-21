@@ -31,7 +31,7 @@ const Home = () => {
         <Dates />
         <h2>Links</h2>
         <div className="links-zine">
-          <Link to="/about" title="Learn more about the project">About</Link>
+          <Link to="/about/#" title="Learn more about the project">About</Link>
           <Link to="/mods" title="Discover the rules of the Zine">Mods</Link>
           {/* <Link to="/contributors" title="Discover the contributors">Contributors</Link> */}
           <Link to="/rules" title="Check out the rules of the zine">Rules</Link>
