@@ -18,5 +18,10 @@
         "name" : "Twitter",
         "handle" : "@Iwai_zine",
         "link" : "https://x.com/Iwai_zine"
+    },
+    "tiktok" :{
+        "name" : "Tiktok",
+        "handle" : "@iwaizineproject",
+        "link" : "https://www.tiktok.com/@iwaizineproject"
     }
 }

@@ -23,10 +23,7 @@ const FAQ = () => {
             <h2>Is the zine digital or physical?</h2>
             <div className="answer">
               <p>
-                The zine will be a free and digital only zine. There will be
-                digital merch and printables. This choice has been made to show
-                off the love Iwai deserves to the world and for everyone to have
-                fun.
+              The zine will be free and digital only. Additionally, there will be digital merch and printables. This choice has been made to show off the love Iwai deserves to the world and for everyone to have fun.
               </p>
             </div>
           </div>
@@ -43,9 +40,7 @@ const FAQ = () => {
             <h2>How many contributors will work on this zine?</h2>
             <div className="answer">
               <p>
-                This will be determined by the results of the applications!
-                Since we are not limited to a physical version, we wish to
-                accept as many people as possible.
+              We aim to have 15 artists, 10 writers, 5 merch artists, and 3 to 5 misc. artists (cosplay, photography, ...)
               </p>
             </div>
           </div>
@@ -91,7 +86,7 @@ const FAQ = () => {
             <div className="answer">
               <p>
                 If you have any questions, please feel free to contact these
-                mods for the following languages: Nats, Ibuki : French
+                mods for the following languages: Nats, Ibuki: French; Ember: Spanish
                 
               </p>
             </div>
