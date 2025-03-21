@@ -48,6 +48,8 @@ const Mods = () => {
             </div>
             <div className="socials">
               <a href="https://www.instagram.com/ibuki_does_drawing/" className="ig" target="_blank" title="Visit Ibuki's social media : Instagram">Instagram</a>
+              <a href="https://www.tiktok.com/@ibuki.draws" className="tt" target="_blank" title="Visit Ibuki's social media : Tiktok">TikTok</a>
+              <a href="https://x.com/Ibuki_draws" className="twt" target="_blank" title="Visit Ibuki's social media : Twitter / X">Twitter</a>
             </div>
           </div>
           <div className="text">
@@ -60,12 +62,12 @@ const Mods = () => {
             </div>
             <div className="intro" style={{ "--name-mod": "'Ibuki'" }}>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt facere repudiandae porro assumenda eaque itaque voluptatem magni ut dolore. Facere minima laborum sint eum autem eligendi officiis earum officia eaque.
+              I'm a self taught artist who just enjoys doing art for fun ! I'm in multiple fandoms, but a really big fan of Persona 5. It's a pleasure to be working on this zine on the mod team ! 
               </p>
             </div>
             <h3 className="role">Past experience :</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas voluptatem corporis eos quibusdam commodi eligendi vel qui, voluptates aut recusandae, nam velit molestias nisi officia, ex voluptatibus. At, nam iste.
+              Contributor of the <a href="https://x.com/BlossomsZine" target="_blank" title="Check out the Demon Slayer : Wisteria Blossoms: A ShinoMitsu Zine">Wisteria Blossoms Zine</a> and multiple artist collabs
             </p>
           </div>
         </div>

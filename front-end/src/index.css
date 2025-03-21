@@ -334,6 +334,11 @@ header nav a {
   background: url("../public/socials-logo/bsky.svg");
 }
 
+.contributors .contributors-list .member-card .tiktok a .icon{
+  background: url('../public/socials-logo/tiktok.svg');
+}
+
+
 .contributors .contributors-list .member-card .social-link a .icon {
   background-repeat: no-repeat;
   background-size: contain;
@@ -537,6 +542,12 @@ form button:hover {
 .mod .socials .tumblr {
   background: url("../public/socials-logo/tumblr.svg");
 }
+.mod .socials .tt {
+  background: url("../public/socials-logo/tiktok.svg");
+}
+.mod .socials .twt {
+  background: url("../public/socials-logo/twt.svg");
+}
 .mod .socials a {
   display: block;
   background-position: center center !important;
@@ -569,7 +580,23 @@ form button:hover {
 .mod .role-infos {
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 20px;
+}
+
+.mod .role-infos .role{
+  flex: 0 0 50%;
+}
+
+.mod .role-infos p{
+  display: block;
+  max-width: fit-content;
+  flex: 0 0 45%;
+}
+
+@media (min-width:900px){
+  .mod .role-infos{
+    gap: 50px;
+  }
 }
 
 .mod .role-infos span {
