@@ -5,21 +5,26 @@
     "description": "Interest Checks"
   },
   "2": {
+    "start-date": 1743958800,
+    "end-date": 1746550800,
+    "description": "Translator Applications"
+  },
+  "3": {
     "start-date": 1745168400,
     "end-date": 1747760400,
     "description": "Collaborator Applications"
   },
-  "3": {
+  "4": {
     "start-date": null,
     "end-date": null,
     "description": "Collaborator reach out"
   },
-  "4": {
+  "5": {
     "start-date": null,
     "end-date": null,
     "description": "Zine production"
   },
-  "5": {
+  "6": {
     "start-date": null,
     "end-date": null,
     "description": "Zine is OUT"

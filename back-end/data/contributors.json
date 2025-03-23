@@ -1,55 +1,54 @@
 {
-    "1":{
-        "name" : "Nats / SharkHoney",
-        "pfp" : "/contributors/nats.png",
-        "socials" : {
-            "twt" : null,
-            "ig" :  {
-                "name" : "Instagram",
-                "handle" : "@sharkhoney_draws",
-                "link" : "https://www.instagram.com/sharkhoney_draws/"
-            },
-            "bsky" : {
-                "name" : "BlueSky",
-                "handle" : "@sharkhoney-draws.bsky.social",
-                "link" : "https://bsky.app/profile/sharkhoney-draws.bsky.social"
-            },
-            "tumblr" : {
-                "name" : "Tumblr",
-                "handle" : "@sharkhoney-draws",
-                "link" : "https://sharkhoney-draws.tumblr.com"
-            }, 
-            "tiktok" : null,
-            "ao3" : null,
-            "cara" : null
-        },
-        "roles" : ["Mod", "Artist"]
+  "2": {
+    "name": "Ibuki",
+    "pfp": "/contributors/ibuki.png",
+    "socials": {
+      "twt": {
+        "name": "Twitter",
+        "handle": "@Ibuki_draws",
+        "link": "https://x.com/Ibuki_draws"
+      },
+      "ig": {
+        "name": "Instagram",
+        "handle": "@ibuki_does_drawing",
+        "link": "https://www.instagram.com/ibuki_does_drawing"
+      },
+      "bsky": null,
+      "tumblr": null,
+      "tiktok": {
+        "name": "TikTok",
+        "handle": "@ibuki.draws",
+        "link": "https://www.tiktok.com/@ibuki.draws"
+      },
+      "ao3": null,
+      "cara": null
     },
-    "2":{
-        "name" : "Ibuki",
-        "pfp" : "/contributors/ibuki.png",
-        "socials" : {
-            "twt" : {
-                "name" : "Twitter",
-                "handle" : "@Ibuki_draws",
-                "link" : "https://x.com/Ibuki_draws"
-            },
-            "ig" :  {
-                "name" : "Instagram",
-                "handle" : "@ibuki_does_drawing",
-                "link" : "https://www.instagram.com/ibuki_does_drawing"
-            },
-            "bsky" : null,
-            "tumblr" : null, 
-            "tiktok" : {
-                "name" : "TikTok",
-                "handle" : "@ibuki.draws",
-                "link": "https://www.tiktok.com/@ibuki.draws"
-            },
-            "ao3" : null,
-            "cara" : null
-        },
-        "roles" : ["Mod", "Artist"]
-    }
-
+    "roles": ["Mod", "Artist"]
+  },
+  "3": {
+    "name": "Nats / SharkHoney",
+    "pfp": "/contributors/nats.png",
+    "socials": {
+      "twt": null,
+      "ig": {
+        "name": "Instagram",
+        "handle": "@sharkhoney_draws",
+        "link": "https://www.instagram.com/sharkhoney_draws/"
+      },
+      "bsky": {
+        "name": "BlueSky",
+        "handle": "@sharkhoney-draws.bsky.social",
+        "link": "https://bsky.app/profile/sharkhoney-draws.bsky.social"
+      },
+      "tumblr": {
+        "name": "Tumblr",
+        "handle": "@sharkhoney-draws",
+        "link": "https://sharkhoney-draws.tumblr.com"
+      },
+      "tiktok": null,
+      "ao3": null,
+      "cara": null
+    },
+    "roles": ["Mod", "Artist"]
+  }
 }
