@@ -1,8 +1,11 @@
 import React from "react";
 import ReturnHome from "../components/ReturnHome";
 import ReturnHomeIcon from "../components/ReturnHomeIcon";
-
+import { useEffect } from "react";
 const About = () => {
+  useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
   return (
     <div className="about">
       <div className="description">

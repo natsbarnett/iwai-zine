@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-
+import Loader from "./Loader";
 const ContribList = () => {
   const [contribs, setContribs] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -11,7 +11,10 @@ const ContribList = () => {
         const response = await axios.get("https://iwai-zine.vercel.app/contributors");
         const contribsData = Object.entries(response.data);
         setContribs(contribsData);
-        setLoading(false);
+        // Ajouter un léger délai avant de cacher le loader
+        setTimeout(() => {
+          setLoading(false);
+        }, 500); // 500 ms de délai
       } catch (error) {
         console.error("Error trying to get contributors", error);
       }
@@ -20,7 +23,7 @@ const ContribList = () => {
   }, []);
 
   if (loading) {
-    return <div>Loading</div>;
+    return <Loader/>;
   }
 
   return (

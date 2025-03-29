@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import ReturnHome from "../components/ReturnHome";
 
 const MessageSent = () => {
+  useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
   return (
     <div className="message-sent">
       <div className="description">

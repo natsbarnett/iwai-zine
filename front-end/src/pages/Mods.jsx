@@ -3,6 +3,9 @@ import ReturnHome from "../components/ReturnHome";
 import ReturnHomeIcon from "../components/ReturnHomeIcon";
 
 const Mods = () => {
+  useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
   return (
     <div className="mods">
       <div className="description">

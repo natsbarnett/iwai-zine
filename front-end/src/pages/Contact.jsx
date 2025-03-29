@@ -5,6 +5,9 @@ import ReturnHome from "../components/ReturnHome";
 import ReturnHomeIcon from "../components/ReturnHomeIcon";
 
 const Contact = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const [nom, setNom] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -38,7 +41,7 @@ const Contact = () => {
       );
   };
 
-  const isButtonVisible = nom  && email && message;
+  const isButtonVisible = nom && email && message;
 
   useEffect(() => {
     if (isButtonVisible && buttonRef.current && !buttonAppeared) {
@@ -78,13 +81,14 @@ const Contact = () => {
   return (
     <div className="contact-form">
       <div className="description">
-        <ReturnHomeIcon/>
+        <ReturnHomeIcon />
         <h1>Contact us</h1>
         <div className="contact-page-content">
           <p>
-            Do you have a question? A suggestion? Please contact us through this form or on our social media!
+            Do you have a question? A suggestion? Please contact us through this
+            form or on our social media!
           </p>
-          <Socials/>
+          <Socials />
           <form ref={form} onSubmit={sendEmail}>
             <input
               type="text"
@@ -127,7 +131,7 @@ const Contact = () => {
             </button>
           </form>
         </div>
-        <ReturnHome/>
+        <ReturnHome />
       </div>
     </div>
   );

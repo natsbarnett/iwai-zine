@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import Loader from "./Loader";
 
 const Dates = () => {
   const [dates, setDates] = useState([]);
@@ -12,7 +13,10 @@ const Dates = () => {
         //console.log(response.data)
         const datesData = Object.entries(response.data);
         setDates(datesData);
-        setLoading(false);
+        // Ajouter un léger délai avant de cacher le loader
+        setTimeout(() => {
+          setLoading(false);
+        }, 500); // 500 ms de délai
       } catch (error) {
         console.error("Error trying to get dates", error);
       }
@@ -21,7 +25,7 @@ const Dates = () => {
   }, []);
 
   if (loading) {
-    return <div>Loading...</div>;
+    return <Loader />;
   }
 
   const formatDate = (timestamp) =>
