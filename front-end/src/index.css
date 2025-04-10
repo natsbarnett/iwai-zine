@@ -55,6 +55,13 @@ a:hover {
   color: var(--gray) !important;
 }
 
+
+span.green{
+  color: var(--green);
+  font-weight: bold;
+  font-size: 20px;
+}
+
 /**************************
 * Loading
 */
@@ -128,6 +135,30 @@ header nav a {
 */
 .home .links-zine {
   display: block;
+}
+
+.home .links-forms{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  margin: 20px auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home .links-forms a{
+  display: block;
+  max-width: fit-content;
+  word-wrap: break-word;
+  margin: 0 auto;
+}
+
+
+@media (min-width:900px){
+  .home .links-forms a{
+    flex: 0 0 9%;
+    padding: 10px 0 !important;
+  }
 }
 
 .home .links-zine a,

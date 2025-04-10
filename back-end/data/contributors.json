@@ -1,4 +1,22 @@
 {
+  "1": {
+    "name": "Ember",
+    "pfp": "/contributors/ember.png",
+    "socials": {
+      "twt": null,
+      "ig": null,
+      "bsky": null,
+      "tumblr": {
+        "name": "Tumblr",
+        "handle": "@lakeside-paradise",
+        "link": "https://www.tumblr.com/lakeside-paradise?source=share"
+      },
+      "tiktok": null,
+      "ao3": null,
+      "cara": null
+    },
+    "roles": ["Mod", "Writer"]
+  },
   "2": {
     "name": "Ibuki",
     "pfp": "/contributors/ibuki.jpg",

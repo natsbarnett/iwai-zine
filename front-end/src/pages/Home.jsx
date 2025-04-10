@@ -6,25 +6,45 @@ import Loader from "../components/Loader";
 
 const Home = () => {
   useEffect(() => {
-      window.scrollTo(0, 0);
-    }, []);
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="home">
       <div className="description">
-        <h1>Iwai Zine Project</h1>
+        <h1>
+          Connected by <br />
+          the Gecko
+        </h1>
         <div className="text">
-          This zine is a free, SFW, digital Persona 5 fanzine centered around
-          the character of Iwai Munehisa
+          This zine is a <span className="green">free, SFW, digital</span>{" "}
+          Persona 5 fanzine centered around the character of{" "}
+          <span className="green">Iwai Munehisa</span>
           <br />
-          Interest checks are now OPEN !
-          <div>
+          <span className="green">Applications are now OPEN !</span>
+          <div className="links-forms">
             <a
-              href="https://forms.gle/MNQxSpE9jqMYUgqdA"
+              href="https://forms.gle/2Ni8CFecE4Ek1NQPA"
               target="_blank"
               className="link"
-              title="Fill in the interest checks"
+              title="Fill in the Artists Applications"
             >
-              INTEREST CHECKS
+              Artist <br />Applications
+            </a>
+            <a
+              href="https://forms.gle/MDhassuSBfoHTeoZ6"
+              target="_blank"
+              className="link"
+              title="Fill in the Writers Applications"
+            >
+              Writer <br />Applications
+            </a>
+            <a
+              href="https://forms.gle/tzbvE1TPThzrQ2Ax9"
+              target="_blank"
+              className="link"
+              title="Fill in the Misc. Artists Applications"
+            >
+              Misc. Artists Applications
             </a>
           </div>
         </div>
@@ -42,11 +62,7 @@ const Home = () => {
           >
             About
           </Link>
-          <Link
-            to="/mods"
-            title="Discover the mods of the Zine"
-            viewTransition
-          >
+          <Link to="/mods" title="Discover the mods of the Zine" viewTransition>
             Mods
           </Link>
           {/* <Link to="/contributors" title="Discover the contributors">Contributors</Link> */}

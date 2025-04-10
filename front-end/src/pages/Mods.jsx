@@ -4,14 +4,54 @@ import ReturnHomeIcon from "../components/ReturnHomeIcon";
 
 const Mods = () => {
   useEffect(() => {
-      window.scrollTo(0, 0);
-    }, []);
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="mods">
       <div className="description">
         <ReturnHomeIcon />
         <h1>Mods</h1>
 
+        <div className="mod">
+          <div className="image-socials">
+            <div className="image">
+              <img src="/contributors/ember.png" alt="Ember" />
+            </div>
+            <div className="socials">
+              <a
+                href="https://www.tumblr.com/lakeside-paradise?source=share"
+                className="tumblr"
+                target="_blank"
+                title="Visit Ember's social media : Tumblr"
+              >
+                Tumblr
+              </a>
+            </div>
+          </div>
+          <div className="text">
+            <h2>Ember</h2>
+            <div className="role-infos">
+              <h3 className="role">Writing Mod</h3>
+              <p>
+                Pronouns: They/Them - It/Its <span> • </span>Languages: English,
+                Spanish
+              </p>
+            </div>
+            <div className="intro" style={{ "--name-mod": "'Ember'" }}>
+              <p>
+                I've been a writer for about 5 years
+                now, and I've been picking up fandoms wherever I go! I've been
+                very interested in Persona 5 Royal for a good few months, and
+                I'm super excited to bring a zine dedicated to Iwai to life as a
+                mod! 
+              </p>
+            </div>
+            <h3 className="role">Past experience :</h3>
+            <p>
+              Contributor in a few zines and other writing projects over the years, the most recent being a Big Bang that is due to be released soon! (Stay tuned :3)
+            </p>
+          </div>
+        </div>
         <div className="mod">
           <div className="image-socials">
             <div className="image">
