@@ -156,10 +156,7 @@ const Mods = () => {
             </div>
             <div className="intro" style={{ "--name-mod": "'Nats'" }}>
               <p>
-                Hello everyone! My name is Nats and I'm super excited to finally
-                be able to make this zine a reality. I felt like I needed to
-                make this zine a reality and show Iwai a little bit more love
-                than what he currently has!
+                The name's Nats, happy to meet you all! Ever since playing Persona 5 Royal, I really wanted to make a zine about the game but couldn't bring myself to do it, that was until I met Iwai in the game. Now here we are, lead mod and totally normal about that man. <br />Let's all have fun together with this project!
               </p>
             </div>
             <h3 className="role">Past experience :</h3>
