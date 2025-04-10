@@ -15,7 +15,7 @@ const Mods = () => {
         <div className="mod">
           <div className="image-socials">
             <div className="image">
-              <img src="/contributors/ibuki.png" alt="Ibuki" />
+              <img src="/contributors/ibuki.jpg" alt="Ibuki" />
             </div>
             <div className="socials">
               <a
@@ -77,7 +77,7 @@ const Mods = () => {
         <div className="mod">
           <div className="image-socials">
             <div className="image">
-              <img src="/contributors/nats.png" alt="Nats" />
+              <img src="/contributors/nats.jpg" alt="Nats" />
             </div>
             <div className="socials">
               <a
