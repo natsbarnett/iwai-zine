@@ -29,6 +29,7 @@ h1 {
   font-weight: normal;
   text-align: center;
   font-size: 35px;
+  word-break: break-word;
 }
 
 @media (min-width: 900px) {
@@ -55,8 +56,7 @@ a:hover {
   color: var(--gray) !important;
 }
 
-
-span.green{
+span.green {
   color: var(--green);
   font-weight: bold;
   font-size: 20px;
@@ -137,7 +137,7 @@ header nav a {
   display: block;
 }
 
-.home .links-forms{
+.home .links-forms {
   display: flex;
   flex-wrap: wrap;
   gap: 0;
@@ -146,16 +146,15 @@ header nav a {
   align-items: center;
 }
 
-.home .links-forms a{
+.home .links-forms a {
   display: block;
   max-width: fit-content;
   word-wrap: break-word;
   margin: 0 auto;
 }
 
-
-@media (min-width:900px){
-  .home .links-forms a{
+@media (min-width: 900px) {
+  .home .links-forms a {
     flex: 0 0 9%;
     padding: 10px 0 !important;
   }
@@ -359,7 +358,17 @@ header nav a {
 .contributors .contributors-list {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
   flex-wrap: wrap;
+  margin: 0 0 50px 0;
+}
+
+@media (max-width: 700px) {
+  .contributors .contributors-list {
+    flex-direction: column;
+    align-items: center !important;
+    gap: 50px;
+  }
 }
 
 .contributors .contributors-list .member-card {
