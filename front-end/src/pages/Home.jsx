@@ -20,33 +20,7 @@ const Home = () => {
           Persona 5 fanzine centered around the character of{" "}
           <span className="green">Iwai Munehisa</span>
           <br />
-          <span className="green">Applications are now OPEN !</span>
-          <div className="links-forms">
-            <a
-              href="https://forms.gle/2Ni8CFecE4Ek1NQPA"
-              target="_blank"
-              className="link"
-              title="Fill in the Artists Applications"
-            >
-              Artist <br />Applications
-            </a>
-            <a
-              href="https://forms.gle/MDhassuSBfoHTeoZ6"
-              target="_blank"
-              className="link"
-              title="Fill in the Writers Applications"
-            >
-              Writer <br />Applications
-            </a>
-            <a
-              href="https://forms.gle/tzbvE1TPThzrQ2Ax9"
-              target="_blank"
-              className="link"
-              title="Fill in the Misc. Artists Applications"
-            >
-              Misc. Artists Applications
-            </a>
-          </div>
+          <span className="green">Applications are now CLOSED ! Thank you for applying! We will get back to you as soon as possible!</span>
         </div>
         <h2>Socials</h2>
         <Socials />
