@@ -20,12 +20,12 @@
     "description": "Collaborator reach out"
   },
   "5": {
-    "start-date": null,
-    "end-date": null,
+    "start-date": 1748469599,
+    "end-date": 1773097200,
     "description": "Zine production"
   },
   "6": {
-    "start-date": null,
+    "start-date": 1773442800,
     "end-date": null,
     "description": "Zine is OUT"
   }

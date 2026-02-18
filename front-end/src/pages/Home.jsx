@@ -20,7 +20,9 @@ const Home = () => {
           Persona 5 fanzine centered around the character of{" "}
           <span className="green">Iwai Munehisa</span>
           <br />
-          <span className="green">Applications are now CLOSED ! Thank you for applying! We will get back to you as soon as possible!</span>
+          <span className="green">
+            The Zine is now in production! The full zine will be released on WHITE DAY!
+          </span>
         </div>
         <h2>Socials</h2>
         <Socials />
@@ -60,6 +62,13 @@ const Home = () => {
             viewTransition
           >
             Contact
+          </Link>
+          <Link
+            to="/contributors"
+            title="Do you want to check out the contributors of the zine? Learn more about them here!"
+            viewTransition
+          >
+            Contributors
           </Link>
         </div>
       </div>
