@@ -41,7 +41,7 @@
       "ao3": null,
       "cara": null
     },
-    "roles": ["Mod", "Artist"]
+    "roles": ["Mod", "Double page Artist"]
   },
   "3": {
     "name": "Nats / SharkHoney",
@@ -68,5 +68,153 @@
       "cara": null
     },
     "roles": ["Mod", "Artist"]
+  },
+  "4": {
+    "name": "Lance'Lo",
+    "pfp": "/contributors/lanceLo.jpg",
+    "socials": {
+      "twt": null,
+      "ig": {
+        "name": "Instagram",
+        "handle": "@lance_l.o",
+        "link": "https://www.instagram.com/lance_l.o/"
+      },
+      "bsky": null,
+      "tumblr": null,
+      "tiktok": null,
+      "ao3": null,
+      "cara": null
+    },
+    "roles": ["Merch Artist", "Page Artist"]
+  },
+  "5": {
+    "name": "astralluvi",
+    "pfp": "/contributors/astralluvi.png",
+    "socials": {
+      "twt": {
+        "name": "Twitter",
+        "handle": "@astralluvi",
+        "link": "https://twitter.com/astralluvi/"
+      },
+      "ig": {
+        "name": "Instagram",
+        "handle": "@astralluvi",
+        "link": "https://www.instagram.com/astralluvi/"
+      },
+      "bsky": null,
+      "tumblr": null,
+      "tiktok": null,
+      "ao3": null,
+      "cara": null
+    },
+    "roles": ["Page Artist"]
+  },
+  "6": {
+    "name": "grrotto",
+    "pfp": "/contributors/grrotto.png",
+    "socials": {
+      "twt": {
+        "name": "Twitter",
+        "handle": "@grr_otto",
+        "link": "https://www.x.com/grr_otto/"
+      },
+      "ig": {
+        "name": "Instagram",
+        "handle": "@grr.otto",
+        "link": "https://www.instagram.com/grr.otto/"
+      },
+      "bsky": null,
+      "tumblr": {
+        "name": "Tumblr",
+        "handle": "@grrotto",
+        "link": "https://www.tumblr.com/grrotto"
+      },
+      "tiktok": null,
+      "ao3": null,
+      "cara": null
+    },
+    "roles": ["Page Artist"]
+  },
+  "7": {
+    "name": "citrussnap",
+    "pfp": "/contributors/citrussnap.png",
+    "socials": {
+      "twt": {
+        "name": "Twitter",
+        "handle": "@citrussnap",
+        "link": "https://www.x.com/citrussnap/"
+      },
+      "ig": {
+        "name": "Instagram",
+        "handle": "@lance_l.o",
+        "link": "https://www.instagram.com/lance_l.o/"
+      },
+      "bsky": null,
+      "tumblr": {
+        "name": "Tumblr",
+        "handle": "@citrussnap",
+        "link": "https://www.tumblr.com/citrussnap"
+      },
+      "tiktok": {
+        "name": "TikTok",
+        "handle": "@citrussnap",
+        "link": "https://www.tiktok.com/@citrussnap"
+      },
+      "ao3": null,
+      "cara": null
+    },
+    "roles": ["Page Artist"]
+  },
+  "8": {
+    "name": "MagentaSky234",
+    "pfp": "/contributors/magentasky234.jpg",
+    "socials": {
+      "twt": null,
+      "ig": {
+        "name": "Instagram",
+        "handle": "@magentasky234_",
+        "link": "https://www.instagram.com/magentasky234_/"
+      },
+      "bsky": null,
+      "tumblr": null,
+      "tiktok": {
+        "name": "TikTok",
+        "handle": "@magentasky234",
+        "link": "https://www.tiktok.com/@magentasky234/"
+      },
+      "ao3": null,
+      "cara": null
+    },
+    "roles": ["Merch Artist", "Double page Artist"]
+  },
+  "9": {
+    "name": "Scarlet Nevermore",
+    "pfp": "/contributors/scarlet_nevermore.png",
+    "socials": {
+      "twt": {
+        "name": "Twitter",
+        "handle": "@crowdrxgon",
+        "link": "https://x.com/crowdrxgon"
+      },
+      "ig": null,
+      "bsky": {
+        "name": "BlueSky",
+        "handle": "@crowdrxgon.bsky.social",
+        "link" : "https://bsky.app/profile/crowdrxgon.bsky.social"
+      },
+      "tumblr": {
+        "name" : "Tumblr",
+        "handle" : "@scarletwritesshit",
+        "link" : "https://www.tumblr.com/blog/scarletwritesshit"
+      },
+      "tiktok": null,
+      "ao3": {
+        "name": "AO3",
+        "handle": "@Scarlet_Nevermore",
+        "link" : "https://archiveofourown.org/users/Scarlet_Nevermore"
+      },
+      "cara": null
+    },
+    "roles": ["Writer"]
   }
 }
