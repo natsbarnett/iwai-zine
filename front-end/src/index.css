@@ -377,6 +377,7 @@ header nav a {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  margin: 10px 0;
 }
 
 @media (min-width: 800px) {
@@ -424,6 +425,10 @@ header nav a {
 
 .contributors .contributors-list .member-card .tiktok a .icon {
   background: url("../public/socials-logo/tiktok.svg");
+}
+
+.contributors .contributors-list .member-card .ao3 a .icon {
+  background: url('../public/socials-logo/ao3.png');
 }
 
 .contributors .contributors-list .member-card .social-link a .icon {

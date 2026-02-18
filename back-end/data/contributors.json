@@ -200,21 +200,57 @@
       "bsky": {
         "name": "BlueSky",
         "handle": "@crowdrxgon.bsky.social",
-        "link" : "https://bsky.app/profile/crowdrxgon.bsky.social"
+        "link": "https://bsky.app/profile/crowdrxgon.bsky.social"
       },
       "tumblr": {
-        "name" : "Tumblr",
-        "handle" : "@scarletwritesshit",
-        "link" : "https://www.tumblr.com/blog/scarletwritesshit"
+        "name": "Tumblr",
+        "handle": "@scarletwritesshit",
+        "link": "https://www.tumblr.com/blog/scarletwritesshit"
       },
       "tiktok": null,
       "ao3": {
         "name": "AO3",
         "handle": "@Scarlet_Nevermore",
-        "link" : "https://archiveofourown.org/users/Scarlet_Nevermore"
+        "link": "https://archiveofourown.org/users/Scarlet_Nevermore"
       },
       "cara": null
     },
     "roles": ["Writer"]
+  },
+  "10": {
+    "name": "Sir Octobass",
+    "pfp": "/contributors/octobase.PNG",
+    "socials": {
+      "twt": null,
+      "ig": null,
+      "bsky": null,
+      "tumblr": {
+        "name": "Tumblr",
+        "handle": "@siroctobass",
+        "link": "https://siroctobass.tumblr.com"
+      },
+      "tiktok": null,
+      "ao3": null,
+      "cara": null
+    },
+    "roles": ["Page Artist", "Small Page Artist"]
+  },
+  "11": {
+    "name": "Nila",
+    "pfp": "/contributors/nila.png",
+    "socials": {
+      "twt": "",
+      "ig": null,
+      "bsky": null,
+      "tumblr": {
+        "name": "Tumblr",
+        "handle": "@oracle-nila",
+        "link": "https://www.tumblr.com/blog/oracle-nila"
+      },
+      "tiktok": null,
+      "ao3": null,
+      "cara": null
+    },
+    "roles": ["Translation help"]
   }
 }
