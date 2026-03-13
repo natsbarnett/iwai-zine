@@ -20,9 +20,11 @@ const Home = () => {
           Persona 5 fanzine centered around the character of{" "}
           <span className="green">Iwai Munehisa</span>
           <br />
-          <span className="green">
-            The Zine is now in production! The full zine will be released on WHITE DAY!
-          </span>
+          The zine is <span className="green">is finally released!</span> check it out on:
+          <div className="links-zine">
+            <a title="check out the zine on HeyZine!" target="_blank" href="https://heyzine.com/flip-book/a12957bef6.html#page/1">HeyZine!</a>
+            <a title="check out the zine on itch.io!" target="_blank" href="https://connectedbythegecko.itch.io/connected-by-the-gecko-iwai-zine">itch.io!</a>
+          </div>
         </div>
         <h2>Socials</h2>
         <Socials />
